@@ -1,3 +1,7 @@
-alert ('Olá mundo!')
-document.querySelector('.tecla_pom')
+function tocasSomPom () {
 document.querySelector('#som_tecla_pom').play();
+}
+
+ducument.querySelector('.tecla-pom').onclick = tocasSomPom;
+
+document.querySelectorAll('.tecla')
